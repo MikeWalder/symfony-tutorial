@@ -13,7 +13,7 @@ class HomeController {
      */
 
     public function home() {
-        return new Response( content: "Bonjour voici une route");
+        return new Response("Bonjour voici une route");
     }
 
 }
